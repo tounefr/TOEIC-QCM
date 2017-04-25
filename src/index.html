@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TOEIC Vocab</title>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="col-xs-6">
+        <div class="row"><h1 class="text-center">TOEIC Vocab QCM</h1></div>
+        <div class="template" id="template_words">
+            <h4 class="text-left">Rank : {{ rank_min }}/{{ rank_max }}</h4>
+            <div class="center">
+                <div class="row">Quelle est la traduction de : <br /><h2>{{ word_to_translate }}</h2></div>
+                {{#word_choices}}
+                <div class="row item-choice">
+                    <div class="pretty {{ type1 }} smooth">
+                        <input type="checkbox">
+                        <label><i class="fa {{ type2 }}"></i> {{ word }}</label>
+                    </div>
+                </div>
+                {{/word_choices}}
+            </div>
+        </div>
+        <div class="template" id="template_load">
+            <div class="center">{{ message }}</div>
+        </div>
+        <div id="render">
+            <div class="center">
+                Loading... please wait
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

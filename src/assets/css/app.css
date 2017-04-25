@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+html, body, .container  {
+    font-family: 'Open Sans';
+}
+
+.container {
+
+}
+
+.container .row {
+}
+
+#rank {
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.item-choice {
+    margin-top: 20px;
+}
+
+.template {
+    display: none;
+}

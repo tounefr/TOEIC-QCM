@@ -1,0 +1,24 @@
+{
+  "name": "qcm-toeic",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Thomas HENON <thomas.henon@epitech.eu>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "awesome-bootstrap-checkbox": "^0.3.7",
+    "font-awesome": "^4.7.0",
+    "material-design-icons": "^3.0.1",
+    "mustache.js": "mustache#^2.3.0"
+  }
+}
